@@ -67,14 +67,20 @@ a {
     padding: 15px;
 }
 
+.New-release {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
 /* For Mobile Phones: */
 [class*="col-"] {
     width: 100%;
+    padding: 15px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-device-width: 600px) {
     /*For Tablets*/
-    .col-s-1 { width: 0.33%; }
+    .col-s-1 { width: 8.33%; }
     .col-s-2 { width: 16.66%; }
     .col-s-3 { width: 25%; }
     .col-s-4 { width: 33.33%;}
@@ -88,9 +94,9 @@ a {
     .col-s-12 { width: 100%; }
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-device-width: 700px) {
     /*For Destop*/
-    .col-1 { width: 0.33%; }
+    .col-1 { width: 8.33%; }
     .col-2 { width: 16.66%; }
     .col-3 { width: 25%; }
     .col-4 { width: 33.33%;}
