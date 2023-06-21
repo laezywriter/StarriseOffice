@@ -72,6 +72,10 @@ a {
     color: #ffffff;
 }
 
+.Update img {
+    width: 100%;
+}
+
 /* For Mobile Phones: */
 [class*="col-"] {
     width: 100%;
